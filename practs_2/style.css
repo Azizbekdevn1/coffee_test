@@ -1,0 +1,138 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Rubik&display=swap');
+
+
+*{
+     font-family: 'Open sans',sans-serif;
+}
+header{
+     height: 80px;
+     padding: 25px 0;
+     
+}
+.logo img{
+       width: 200px;
+}
+ul {
+     list-style: none;
+     display: flex;
+
+}
+ul li {
+     margin-top: 17px;
+}
+.nav ul li{
+     padding: 0 20px;
+}
+ul li a{
+     text-decoration: none;
+     font-size: 18px;
+     text-transform: uppercase;
+     color: rgb(17,17,17);
+}
+.icon ul li{
+     padding:0 5px ;
+}
+.icon ul li a i{
+     font-size: 26px;
+}
+#slide{
+     height: 600px;
+     background: url(img/slideshow-v51.webp);
+     background-size: cover;
+}
+#slide *{
+     font-family: 'Playfair Display',serif;
+}
+.slide-item{
+     height: 500px;
+}
+.slide-item span{
+     font-size: 16px;
+     color: rgb(82, 82, 82);
+     letter-spacing: 5px;
+}
+.slide-item h2{
+     font-size: 75px;
+     font-weight: 600;
+     color: rgb(12,12,12);
+}
+.slide-item h3{
+     font-size: 20px;
+     font-weight: 400;
+     margin: 15px 0;
+     margin-bottom: 20px;
+}
+.slide-item a{
+     display: inline-block;
+     text-decoration: none;
+     border: 1px solid #000;
+     border-radius: 10px;
+     color: #000;
+     font-size: 14px;
+     font-weight: 700;
+     padding: 15px 30px;
+}
+#service{
+     padding: 50px 0;
+}
+.service-item {
+     padding: 0 10px;
+}
+
+.service-item h3{
+     font-size: 16px;
+     font-weight: 600;
+     margin:0 5px;
+}
+.service-item p{
+     font-size: 14px;
+     font-weight: 400;
+     margin: 0 5px;
+}
+#shop{
+     padding: 50px 0;
+}
+.shop-text h3{
+     margin: 20px 0;
+     text-align: center;
+     font-size: 40px;
+     font-weight: 400;
+     color: #272727;
+}
+.shop ul li{
+     padding:0 30px;
+}
+.shop a{
+     font-size: 16px;
+     font-weight: 700;
+     letter-spacing: 1.2px;
+}
+.active a{
+     border-bottom: 3px solid chocolate;
+     color: chocolate;
+}
+.shop-box{
+     margin: 50px 0;
+}
+.shop-box-img{
+     padding: 10px;
+}
+.shop-box-img img{
+     width: 100%;
+}
+.shop-box-dis p{
+     font-size: 16px;
+     font-weight: 400;
+     text-align: center;
+}
+.shop-box-dis p span{
+     color: coral;
+     text-align: center;
+     margin: 5px 0;
+     font-weight: 700;
+}
+.col-3{
+     margin: 30px 0;
+}
+
